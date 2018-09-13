@@ -13,6 +13,16 @@ public class tugas {
         String identitas = "Annisa Fairuz Rizqi / X RPL 2 / 07";
         
         tampilJudul(identitas);
-        
+        int n = tampilInput();
     }
+    
+        private static int tampilInput() {
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.println("Bilangan ke-: ");
+            int n = scanner.nextInt();
+            
+            return n;
+    }
+    
 }
